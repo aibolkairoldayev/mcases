@@ -241,6 +241,7 @@ body {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin: 0;
 }
 
 .mcase1__bot3 {
@@ -393,8 +394,8 @@ body {
 }
 
 .mcase__block {
-    height: 100vh;
-    position: sticky;
+    /* height: 100vh;
+    position: sticky; */
     top: 0;
     left: 0;
 }
@@ -422,4 +423,346 @@ body {
 
 .mcase1__block4 {
     background-color: #fff;
+}
+
+.mcase2__block1 {
+    position: relative;
+    height: 700px;
+}
+
+.mcase2__block1--wrapper {
+    background: linear-gradient(90deg, #000 0%, rgba(0, 0, 0, 0) 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+.mcase2__block1--bg {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.mcase2__block1--bg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.mcase2__block1 .container {
+    position: relative;
+    z-index: 3;
+    padding: 120px;
+}
+
+.mcase2__block1--content {
+    width: 560px;
+}
+
+.mcase2__block1--content span {
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.mcase2__block1--content h1 {
+    margin: 16px 0 32px;
+    color: #FFF;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 750;
+    line-height: normal;
+}
+
+.mcase2__block1--content p {
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.mcase__about {
+    border-radius: 80px 80px 0 0;
+    background: #FFF;
+    padding: 120px 0;
+    margin-top: -100px;
+}
+
+.mcase__about .mcase__left {
+    width: calc(50% - 16px);
+}
+
+.mcase__about .mcase__right {
+    width: calc(50% - 16px);
+}
+
+.mcase__aboutpp--title {
+    color: #272727;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 750;
+    line-height: normal;
+    display: block;
+    margin-bottom: 32px;
+}
+
+.mcase__about--text {
+    color: #4B4B4B;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120% 
+}
+
+.mcase2__block3 {
+    border-radius: 80px 80px 0 0;
+    background: #21282B;
+    padding: 120px 0;
+}
+
+.mcase__screens img {
+    border-radius: 24px;
+    border: 2px solid #EFEFEF;
+    width: calc(50% - 10px);
+}
+
+.mcase2__block4 {
+    border-radius: 80px 80px 0 0;
+    background: #F0F7FD;
+    padding: 120px 0;
+}
+
+.mcase2__block4--top {
+    display: flex;
+    justify-content: space-between;
+    margin: 45px 0;
+
+}
+
+.mcase2__block4--top b {
+    color: #272727;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+    text-transform: uppercase;
+    display: block;
+    margin-right: 80px;
+    max-width: 33%;
+    padding-right: 30px;
+}
+
+.mcase2__block4--top p {
+    color: #4B4B4B;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
+
+.increase-main {
+    height: 230px;
+    padding: 24px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.increase-main__img {
+    width: 100%;
+    height: 100%;
+}
+
+.increase-main__icon {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    left: 50px;
+    bottom: 50px;
+}
+
+.mcase2__block5 {
+    border-radius: 80px 80px 0 0;
+    background: #21282B;
+    padding: 120px 0;
+}
+
+.mcase2__block5--top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mcase2__block5--left {
+    width: 450px;
+}
+
+.mcase2__block5--left img {
+    width: 100%;
+}
+
+.mcase2__block5--right {
+    width: calc(100% -  530px);
+}
+
+.mcase2__block5--title {
+    color: #FFF;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 750;
+    line-height: normal;
+}
+
+.mcase2__block5--items {
+    margin-top: 45px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.mcase2__block5--item b {
+    color: #FFF;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 750;
+    line-height: normal;
+}
+
+.mcase2__block5--item p {
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+    max-width: 250px;
+}
+
+.mcase2__block5--item {
+    margin-bottom: 50px;
+}
+
+.mcase2__block6 {
+    border-radius: 80px 80px 0 0;
+    background: #FFF;
+    padding: 120px 0;
+}
+
+.mcase2__block6--left {
+    width: 450px;
+}
+
+.mcase2__block6--left img {
+    width: 100%;
+}
+
+.mcase2__block6--right {
+    width: calc(100% - 530px);
+}
+
+.mcase2__block6--title {
+    color: #272727;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 750;
+    line-height: normal;
+    margin-bottom: 45px;
+}
+
+.mcase2__block6--top {
+    margin-bottom: 60px;
+}
+
+.mcase2__block6--items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+}
+
+.mcase2__block6--item p {
+    color: #272727;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+    margin: 0;
+}
+
+.mcase2__block6--item b {
+    color: #272727;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 750;
+    line-height: normal;
+}
+
+.mcase2__block7 {
+    border-radius: 80px 80px 0 0;
+    background: #21282B;
+    padding: 120px 0;
+}
+
+.mcase2__block7--title {
+    margin-bottom: 45px;
+    color: #FFF;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 750;
+    line-height: normal;
+}
+
+.mcase2__block7--item {
+    padding: 45px 0;
+    border-bottom: 1px solid #B9B9B9;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mcase2__block7--item:last-child {
+    border-bottom: none;
+}
+
+.mcase2__block7--item b {
+    width: 310px;
+    display: block;
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.mcase2__block7--text {
+    width: calc(100% - 390px);
+}
+
+.mcase2__block7--text {
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.mcase2__block7--text ul {
+    margin-left: 20px;
+}
+
+.mcase2__block7--text li {
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 12px;
+    list-style-type: disc;
 }
