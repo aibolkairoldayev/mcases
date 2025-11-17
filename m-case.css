@@ -123,7 +123,7 @@ body {
     align-items: center;
 }
 
-.mcase__about img {
+.mcase__about .mcase__color img {
     width: 32px;
     height: 32px;
     margin-right: 8px;
@@ -1040,4 +1040,367 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+.mcase__banner {
+    position: relative;
+    height: 700px;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.mcase__banner--wrapper {
+    background: linear-gradient(90deg, #000 0%, rgba(0, 0, 0, 0) 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+.mcase__banner--bg {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.mcase__banner--bg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.mcase__banner .container {
+    position: relative;
+    z-index: 3;
+    padding: 120px;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.mcase__banner--content {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.mcase__banner--content span {
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.mcase__banner--content h1 {
+    display: block;
+    margin: 16px 0 24px;
+    color: #FFF;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 750;
+    line-height: normal;
+}
+
+.mcase__banner--content p {
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+}
+
+.mcase__green {
+    background: #C9DB99;
+}
+
+.mcase4__block2 .mcase__about--text {
+    color: #272727;
+}
+
+.mcase4__block2.mcase__about li {
+    color: #272727;
+    margin-bottom: 15px;
+}
+
+.increase-main__img {
+    width: 100%;
+}
+
+.mcase4__block2--text {
+    margin-top: 30px;
+    color: #272727;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.mcase4__block3 {
+    background: #21282B;
+} 
+
+.mcase4__block2--title {
+    color: #FFF;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 750;
+    line-height: normal;
+    margin-bottom: 45px;
+}
+.mcase4__left3 b {
+    margin-bottom: 24px;
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 133.333%; 
+    display: block;
+}
+
+.mcase4__left3 {
+    width: calc(50% - 16px);
+}
+
+.mcase4__left3--text p{
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0 0 20px 0;
+}
+
+.mcase4__left3 {
+    width: calc(50% - 16px);
+}
+
+.mcase4__left3 img {
+    width: 100%;
+    border-radius: 16px;
+}
+
+.mcase4__block3 .mcase__flex {
+    margin-bottom: 60px;
+} 
+
+.mcase4__left3--items {
+    border-radius: 32px;
+    background: rgba(64, 84, 72, 0.32);
+    backdrop-filter: blur(10px);
+    width: calc(50% - 16px);
+    padding: 32px;
+    box-sizing: border-box;
+}
+
+.mcase4__left3--items b {
+    color: #FFF;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;    
+    display: block;
+    margin-bottom: 24px;
+}
+
+.mcase4__left3--item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.mcase4__left3--item span {
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.mcase4__left3--item p {
+    color: #FFF;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 750;
+    line-height: normal;
+    margin: 0;
+}
+
+.mcase4__block4 {
+    background: #FFF;
+}
+
+.ase4__block4--left1 {
+    width: 450px;
+}
+
+.ase4__block4--left1 img {
+    width: 100%;
+}
+
+.case4__block4--right1 {
+    width: calc(100% - 530px);
+}
+
+.case4__block4--right1 span {
+    color: #272727;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 750;
+    line-height: normal;
+    display: block;
+    margin-bottom: 45px;
+}
+
+.case4__block4--items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+}
+
+.case4__block4--item p {
+    margin: 0;
+    color: #272727; 
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+}
+
+.case4__block4--item b {
+    color: #272727;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 750;
+    line-height: normal;
+}
+
+.case4__block4--top {
+    margin-bottom: 120px;
+}
+
+.case4__block4--left2 {
+    width: calc(50% - 16px);
+}
+
+.case4__block4--left2 b {
+    display: block;
+    margin-bottom: 45px;
+    color: #272727;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 750;
+    line-height: normal;
+}
+
+.case4__block4--left2 p {
+    color: #272727;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.case4__block4--right2 {
+    width: calc(50% - 16px);
+}
+
+.case4__block4--bot {
+    align-items: center;
+}
+
+.mcase4__block5 {
+    background: #21282B;
+}
+
+.mcase4__block5--left1 {
+    width: calc(50% - 16px);
+}
+
+.mcase4__block5--right1 {
+    width: calc(50% - 16px);
+}
+
+.mcase4__block5--right1 img {
+    width: 100%;
+}
+
+.mcase4__block5--title {
+    color: #FFF;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 750;
+    line-height: normal;
+}
+
+.mcase4__block5--text {
+    margin: 32px 0 48px;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.mcase4__block5--items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mcase4__block5--item p {
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+    margin: 0;
+}
+
+.mcase4__block5--item b {
+    color: #FFF;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 750;
+    line-height: normal;
+}
+
+.mcase4__block5--bot {
+    margin-top: 130px;
+}
+
+.mcase4__block5--subtitle {
+    color: #FFF;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 750;
+    line-height: normal;
+    margin-bottom: 45px;
+}
+
+.mcase4__block5--content b {
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+    text-transform: uppercase;
+    width: 310px;
+    display: block;
+}
+
+.mcase4__block5--subrext {
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: calc(100% - 390px);
 }
