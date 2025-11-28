@@ -1,25 +1,40 @@
-$(window).on('load scroll resize', function () {
+$(window).on('load', function () {
 
     const winH = $(window).height();
-    const scrollTop = $(window).scrollTop();
-    const scrollBottom = scrollTop + winH;
+    const blocks = $('.mcase__sticky-block');
 
-    $('.mcase__block').each(function () {
+    // Проверка высоты при загрузке
+    blocks.each(function () {
+        const h = $(this).outerHeight();
 
-        const $el = $(this);
-        const rect = this.getBoundingClientRect(); // ← ключевое отличие
-        const elTopAbs = scrollTop + rect.top;
-        const elBottomAbs = elTopAbs + rect.height;
-
-        $el.removeClass('mcase__sticky mcase__sticky2');
-
-        if (rect.height <= winH) {
-            $el.addClass('mcase__sticky');
-        } else {
-            if (scrollBottom >= elBottomAbs) {
-                $el.addClass('mcase__sticky2');
-            }
+        if (h < winH) {
+            $(this).addClass('active3');
         }
     });
-});
 
+    // Следим за скроллом
+    $(window).on('scroll', function () {
+        const winBottom = $(window).scrollTop() + winH;
+
+        blocks.each(function () {
+            const $el = $(this);
+            const elTop = $el.offset().top;
+            const elBottom = elTop + $el.outerHeight();
+
+            // Только блоки выше высоты экрана
+            if ($el.outerHeight() > winH) {
+
+                // ↓↓↓ при скролле вниз: нижняя граница дошла до нижней границы экрана
+                if (elBottom <= winBottom) {
+                    $el.addClass('active2');
+                }
+
+                // ↑↑↑ при скролле вверх: нижняя граница снова выше нижней границы экрана
+                if (elBottom > winBottom) {
+                    $el.removeClass('active2');
+                }
+            }
+        });
+    });
+
+});
