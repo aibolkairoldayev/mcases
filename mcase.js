@@ -85,3 +85,25 @@ document.addEventListener('DOMContentLoaded', () => {
 
   checkCover();
 });
+
+
+//others block slider
+if ($(window).width() < 992) {
+  $('.mcase__others--items').slick({
+    dots: false,
+    infinite: false,
+    speed: 500,
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    responsive: [
+        {
+            breakpoint: 576,
+            settings: {
+                slidesToShow: 1,
+            }
+        },
+
+    ],
+  });
+}
+
