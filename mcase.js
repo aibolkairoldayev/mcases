@@ -92,6 +92,7 @@ if ($(window).width() < 992) {
   $('.mcase__others--items').slick({
     dots: false,
     infinite: false,
+    arrows: false,
     speed: 500,
     slidesToShow: 2,
     slidesToScroll: 1,
