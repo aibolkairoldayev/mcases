@@ -2,8 +2,8 @@
     font-family: "Avenir Next Cyr";
     src: url('/fonts/AvenirNextCyr-Regular.eot');
     src: url('/fonts/AvenirNextCyr-Regular.eot?#iefix') format('embedded-opentype'),
-         url('/fonts/AvenirNextCyr-Regular.woff') format('woff'),
-         url('/fonts/AvenirNextCyr-Regular.ttf') format('truetype');
+    url('/fonts/AvenirNextCyr-Regular.woff') format('woff'),
+    url('/fonts/AvenirNextCyr-Regular.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
 }
@@ -12,8 +12,8 @@
     font-family: "Avenir Next Cyr";
     src: url('/fonts/AvenirNextCyr-Medium.eot');
     src: url('/fonts/AvenirNextCyr-Medium.eot?#iefix') format('embedded-opentype'),
-         url('/fonts/AvenirNextCyr-Medium.woff') format('woff'),
-         url('/fonts/AvenirNextCyr-Medium.ttf') format('truetype');
+    url('/fonts/AvenirNextCyr-Medium.woff') format('woff'),
+    url('/fonts/AvenirNextCyr-Medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
 }
@@ -22,8 +22,8 @@
     font-family: "Avenir Next Cyr";
     src: url('/fonts/AvenirNextCyr-Demi.eot');
     src: url('/fonts/AvenirNextCyr-Demi.eot?#iefix') format('embedded-opentype'),
-         url('/fonts/AvenirNextCyr-Demi.woff') format('woff'),
-         url('/fonts/AvenirNextCyr-Demi.ttf') format('truetype');
+    url('/fonts/AvenirNextCyr-Demi.woff') format('woff'),
+    url('/fonts/AvenirNextCyr-Demi.ttf') format('truetype');
     font-weight: 600;
     font-style: normal;
 }
@@ -32,8 +32,8 @@
     font-family: "Avenir Next Cyr";
     src: url('/fonts/AvenirNextCyr-Bold.eot');
     src: url('/fonts/AvenirNextCyr-Bold.eot?#iefix') format('embedded-opentype'),
-         url('/fonts/AvenirNextCyr-Bold.woff') format('woff'),
-         url('/fonts/AvenirNextCyr-Bold.ttf') format('truetype');
+    url('/fonts/AvenirNextCyr-Bold.woff') format('woff'),
+    url('/fonts/AvenirNextCyr-Bold.ttf') format('truetype');
     font-weight: 700;
     font-style: normal;
 }
@@ -46,7 +46,7 @@
     overflow-x: hidden;
 }
 .mcase__wrapper::-webkit-scrollbar {
-  display: none;
+    display: none;
 }
 body {
     scrollbar-width: none;
@@ -79,7 +79,7 @@ body {
 }
 
 .mcase1__title {
-	margin-top: 20px;
+    margin-top: 20px;
     color: #FFF;
     font-size: 48px;
     font-style: normal;
@@ -122,7 +122,7 @@ body {
     font-weight: 700;
     line-height: normal;
     text-transform: uppercase;
-	width: fit-content;
+    width: fit-content;
 }
 
 
@@ -136,7 +136,7 @@ body {
     font-weight: 700;
     line-height: normal;
     text-transform: uppercase;
-	width: fit-content;
+    width: fit-content;
 }
 
 .mcase1__block2 {
@@ -463,12 +463,12 @@ body {
 }
 
 .mcase__image-wrap::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 0.7) 100%);
-  pointer-events: none;
-  border-radius: 32px;
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 0.7) 100%);
+    pointer-events: none;
+    border-radius: 32px;
 }
 
 .mcase__others--item b {
@@ -548,7 +548,7 @@ body {
 
 .mcase2__block1 {
     position: relative;
-	background: url(/images/mcases/case2-bg.jpg);
+    background: url(/images/mcases/case2-bg.jpg);
     background-size: cover;
 }
 
@@ -931,8 +931,8 @@ body {
 
 .mcase3__block1 {
     position: relative;
-	background: url(/images/mcases/mcase3-block1.png);
-	background-size: cover;
+    background: url(/images/mcases/mcase3-block1.png);
+    background-size: cover;
 }
 
 .mcase3__block1--wrapper {
@@ -968,8 +968,8 @@ body {
 
 .mcase3__block1--content {
     width: 560px;
-	z-index: 40;
-	position: relative;
+    z-index: 40;
+    position: relative;
 }
 
 .mcase3__block1--content span {
@@ -1266,7 +1266,7 @@ body {
     flex-direction: column;
     justify-content: center;
     height: 100%;
-	z-index: 50;
+    z-index: 50;
     position: relative;
 }
 
@@ -1710,7 +1710,7 @@ body {
     margin: 0;
 }
 .mcase5__block1 {
-	background: url(/images/mcases/mcase5-b1.png);
+    background: url(/images/mcases/mcase5-b1.png);
 }
 
 .mcase5__block2 .mcase__about--title {
@@ -2037,8 +2037,8 @@ body {
 }
 
 .mcase6__block1 {
-	background: url(/images/mcases/mcase6-b1.png);
-	background-size: cover;
+    background: url(/images/mcases/mcase6-b1.png);
+    background-size: cover;
 }
 
 .mcase6__block3 {
@@ -2509,8 +2509,8 @@ body {
 }
 
 .mcase7__block1 {
-	background: url(/images/mcases/mcase7-b1.png);
-	background-size: cover;
+    background: url(/images/mcases/mcase7-b1.png);
+    background-size: cover;
 }
 
 .mcase7__left2 .mcase__about--text {
@@ -4129,6 +4129,15 @@ body {
     .mcase6__block3--right {
         width: calc(100% - 520px);
     }
+    .mcase6__block4--right {
+        width: 37%;
+    }
+    .mcase6__block4--left {
+        width: calc(63% - 40px);
+    }
+    .mcase6__block5--bot img {
+        width: 25%;
+    }
 }
 
 @media(max-width: 1200px) {
@@ -4159,6 +4168,12 @@ body {
     .mcase6__block3--items {
         gap: 45px;
     }
+    .mcase6__block4--item {
+        margin-right: 30px;
+    }
+    .mcase__advert b {
+        margin-right: 30px;
+    }
 }
 
 
@@ -4180,7 +4195,7 @@ body {
     }
     .mcase1__block3 .mcase__flex {
         flex-direction: column-reverse;
-    } 
+    }
     .mcase1__left3 {
         width: 100%;
     }
@@ -4254,7 +4269,7 @@ body {
     .mcase5__block8--res {
         margin: 30px 0 80px;
     }
-     .mcase6__block3--left {
+    .mcase6__block3--left {
         width: 380px;
         margin: 0 auto;
     }
@@ -4271,9 +4286,59 @@ body {
     .mcase__advert b {
         margin-right: 25px;
     }
+    .mcase6__block4--top {
+        flex-direction: column;
+        margin-bottom: 35px;
+    }
+    .mcase6__block4--left {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .mcase6__block4--right {
+        max-width: 550px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .mcase6__block4--bot {
+        padding: 30px;
+    }
+    .mcase6__block5--bot {
+        padding: 22px;
+        flex-wrap: wrap;
+    }
+    .mcase__advert b {
+        width: 100%;
+        margin-bottom: 24px;
+    }
+    .mcase6__block5--bot img {
+        width: calc(33% - 11px);
+    }
+    .mcase6__block5--mid {
+        margin: 40px 0;
+    }
+    .mcase6__block5--title {
+        font-size: 35px;
+    }
+    .mcase7__block3--left {
+        width: 395px;
+    }
+    .mcase7__block3--right {
+        width: calc(100% - 420px);
+    }
+    .mcase7__block4--right {
+        width: 380px;
+    }
+    .mcase7__block4--left {
+        padding: 20px;
+        width: calc(100% - 400px);
+    }
 }
 
 @media(max-width: 768px) {
+    .mcase6__block5--mid {
+        margin: 25px 0;
+        flex-direction: column;
+    }
     .case4__block4--top {
         margin-bottom: 80px;
     }
@@ -4282,7 +4347,7 @@ body {
         margin-top: -70px;
         border-radius: 60px 60px 0 0;
     }
-     .mcase1__title {
+    .mcase1__title {
         font-size: 32px;
         margin-top: 35px;
     }
@@ -4308,7 +4373,7 @@ body {
     .mcase2__block1--content h1 {
         font-size: 56px;
     }
-     .mcase2__block1 .container {
+    .mcase2__block1 .container {
         padding: 60px;
     }
     .mcase2__block4--top {
@@ -4444,6 +4509,68 @@ body {
         width: 100%;
         margin: 20px 0;
     }
+    .mcase6__block4--bot {
+        padding: 20px;
+    }
+    .mcase6__block4--bot {
+        flex-wrap: wrap;
+    }
+    .mcase6__block4--bot b {
+        width: 100%;
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+    .mcase__advert img.mcase6__block4--rekl1 {
+        width: 35%;
+    }
+    .mcase__advert img.mcase6__block4--rekl2 {
+        width: 28%;
+    }
+    .mcase__advert img.mcase6__block4--rekl3 {
+        width: 35%;
+    }
+    .mcase6__block5--top.mcase__flex {
+        flex-direction: column-reverse;
+    }
+    .mcase6__block5--left {
+        max-width: 550px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .mcase6__block5--right {
+        width: 100%;
+    }
+    .mcase6__block5--items2 {
+        padding: 16px;
+        width: 100%;
+        margin-bottom: 18px;
+    }
+    .mcase6__block5--item2 b {
+        font-size: 28px;
+    }
+    .mcase7__block3--left {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .mcase7__block3--right {
+        width: 100%;
+    }
+    .mcase7__block4--left {
+        width: 100%;
+        margin-bottom: 20px;
+        box-sizing: border-box;
+    }
+    .mcase7__block4--right {
+        width: 100%;
+        max-width: 550px;
+        margin: 0 auto;
+    }
+    .mcase7__block5--content b {
+        margin-bottom: 25px;
+    }
+    .mcase7__block5--content p {
+        width: 100%;
+    }
 }
 
 @media(max-width: 576px) {
@@ -4453,7 +4580,7 @@ body {
     .mcase1__left {
         width: 100%;
     }
-     .mcase__block {
+    .mcase__block {
         padding: 70px 0 100px;
         margin-top: -50px;
         border-radius: 40px 40px 0 0;
@@ -4466,12 +4593,12 @@ body {
     }
     .mcase1__bot3 {
         margin-top: 30px;
-        
+
     }
     .mcase1__item4 {
         padding: 24px 0;
     }
-     .mcase2__block1 .container {
+    .mcase2__block1 .container {
         padding: 40px;
     }
     .mcase2__block1--content h1 {
@@ -4542,7 +4669,7 @@ body {
     }
     .mcase4__right2 {
         margin-bottom: 20px;
-    } 
+    }
     .mcase__others.mcase__block {
         padding: 80px 0;
     }
@@ -4555,7 +4682,7 @@ body {
     .case4__block4--items {
         gap: 30px 15px;
     }
-     .case4__block4--item b {
+    .case4__block4--item b {
         font-size: 60px;
     }
     .mcase4__block5--text {
@@ -4602,7 +4729,7 @@ body {
     .mcase5__block8--res {
         margin: 30px 0;
     }
-     .mcase5__block8--bot b {
+    .mcase5__block8--bot b {
         font-size: 35px;
     }
     .mcase__about--item {
@@ -4619,6 +4746,30 @@ body {
     }
     .mcase6__block3--img2 {
         width: 60%;
+    }
+    .mcase6__block4--left span {
+        margin-bottom: 25px;
+    }
+    .mcase6__block4--item b {
+        font-size: 40px;
+    }
+    .mcase6__block4--item {
+        margin-right: 18px;
+    }
+    .mcase6__block5--title {
+        margin-bottom: 25px;
+    }
+    .mcase6__block5--item {
+        margin-right: 25px;
+    }
+    .mcase6__block5--item b {
+        font-size: 40px;
+    }
+    .mcase6__block5--bot {
+        padding: 0;
+    }
+    .mcase7__block3--left b {
+        font-size: 32px;
     }
 }
 
@@ -4677,7 +4828,7 @@ body {
         margin-bottom: 12px;
         max-width: unset;
     }
-     .mcase__banner--content h1 {
+    .mcase__banner--content h1 {
         font-size: 45px;
     }
     .mcase__banner .container {
@@ -4726,7 +4877,7 @@ body {
     }
     .mcase6__block3--img2 {
         width: 100%;
-    } 
+    }
     .mcase__advert b {
         font-size: 30px;
     }
@@ -4748,7 +4899,10 @@ body {
         font-size: 30px;
         white-space: nowrap;
     }
-} 
+    .mcase6__block4--left span {
+        font-size: 35px;
+    } 
+}
 
 @media(max-width: 400px) {
     .case4__block4--item b {
@@ -4759,8 +4913,11 @@ body {
     }
     .mcase5__block1 .mcase4__block1--item p {
         font-size: 18px;
-    } 
+    }
     .mcase6__block1 .mcase__banner--content h1 {
         font-size: 40px;
-    } 
+    }
+    .mcase4__block1--content.mcase__banner--content h1 {
+        font-size: 42px;
+    }
 }
