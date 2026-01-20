@@ -4138,6 +4138,7 @@ body {
     .mcase6__block5--bot img {
         width: 25%;
     }
+    
 }
 
 @media(max-width: 1200px) {
@@ -4173,6 +4174,12 @@ body {
     }
     .mcase__advert b {
         margin-right: 30px;
+    }
+    .mcase8__block6--text {
+        width: calc(100% - 220px);
+    }
+    .mcase8__block7--item p {
+        max-width: 280px;
     }
 }
 
@@ -4331,6 +4338,73 @@ body {
     .mcase7__block4--left {
         padding: 20px;
         width: calc(100% - 400px);
+    }
+    .mcase__banner--content.mcase8__block1--left h1 {
+        font-size: 60px;
+    }
+    .mcase__banner--content.mcase8__block1--left {
+        width: 54%;
+    }
+    .mcase8__block1--right {
+        width: 44%;
+    }
+    .mcase8__block2--bot {
+        flex-direction: column;
+    }
+    .mcase8__block2--items {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .mcase8__block3--right {
+        width: calc(100% - 500px);
+    }
+    .mcase8__block3--bot {
+        margin-top: 80px;
+    }
+    .mcase8__block3--bot .mcase__flex {
+        flex-direction: column;
+    }
+    .mcase8__block3--elem {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .mcase8__block3--bot .mcase8__block3--bot2.mcase__flex {
+        flex-direction: row;
+    }
+    .mcase8__block4--mid {
+        margin: 80px 0 35px;
+    }
+    .mcase8__block7--top {
+        flex-direction: column;
+    }
+    .mcase8__block7--bot.mcase__flex {
+        flex-direction: column;
+    }
+    .mcase8__block7--left {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .mcase8__block7--right {
+        width: 100%;
+        max-width: 550px;
+        margin: 0 auto;
+    }
+    .mcase8__block7--items {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .mcase8__block8--top {
+        flex-direction: column;
+    }
+    .mcase8__block8--left {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .mcase8__block8--right {
+        width: 100%;
+    }
+    .mcase8__block8--bot2 {
+        margin-top: 16px;
     }
 }
 
@@ -4571,6 +4645,96 @@ body {
     .mcase7__block5--content p {
         width: 100%;
     }
+    .mcase__banner--content.mcase8__block1--left {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .mcase8__block1--right {
+        width: 100%;
+        max-width: 550px;
+        margin: 0 auto;
+    }
+    .mcase__banner--content.mcase8__block1--left h1 {
+        font-size: 55px;
+    }
+    .mcase8__block2--top {
+        padding: 24px;
+    }
+    .mcase8__block3--left {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .mcase8__block3--left p {
+        margin: 16px 0 30px;
+    }
+    .mcase8__block3--left img {
+        max-width: 500px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .mcase8__block3--right {
+        width: 100%;
+    }
+    .mcase8__block4--top {
+        margin-bottom: 25px;
+    }
+    .mcase8__block4--top b {
+        font-size: 35px;
+        margin-bottom: 16px;
+    }
+    .mcase8__block4--mid {
+        margin: 50px 0 25px;
+    }
+    .mcase8__block4--mid b {
+        width: 100%;
+        margin-bottom: 20px;
+        font-size: 35px;
+    }
+    .mcase8__block4--item {
+        margin-left: 0;
+        margin-bottom: 20px;
+        padding: 20px;
+    }
+    .mcase8__block5--left {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .mcase8__block5--right {
+        width: 100%;
+    }
+    .mcase8__block5--left2 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .mcase8__block5--right2 {
+        width: 100%;
+    }
+    .mcase8__block6--top b {
+        margin-bottom: 20px;
+    }
+    .mcase8__block6--text {
+        width: 100%;
+    }
+    .mcase8__block6--top {
+        margin-bottom: 30px;
+    }
+    .mcase8__block8--bot {
+        flex-wrap: wrap;
+    }
+    .mcase8__block8--item {
+        width: 100%;
+        margin-bottom: 16px;
+    }
+    .mcase8__block9--content.mcase__flex {
+        flex-direction: column-reverse;
+    }
+    .mcase8__block9--items {
+        width: 100%;
+    }
+    .mcase8__block9--content img {
+        width: 100%;
+        max-width: 550px;
+    }
 }
 
 @media(max-width: 576px) {
@@ -4771,6 +4935,53 @@ body {
     .mcase7__block3--left b {
         font-size: 32px;
     }
+    .mcase__banner--content.mcase8__block1--left h1 {
+        font-size: 50px;
+    }
+    .mcase8__block2--items {
+        padding: 20px;
+    }
+    .mcase8__block3--left b {
+        font-size: 32px;
+    }
+    .mcase8__block3--bot {
+        margin-top: 40px;
+    }
+    .mcase8__block3--subtitle {
+        font-size: 32px;
+        margin-bottom: 25px;
+    }
+    .mcase8__block3--elem {
+        padding: 16px;
+    }
+    .mcase8__block5--bot {
+        margin-top: 25px;
+    }
+    .mcase8__block5--right {
+        padding: 20px;
+    }
+    .mcase8__block7--left b {
+        margin-bottom: 20px;
+    }
+    .mcase8__block7--right {
+        flex-direction: column;
+    }
+    .mcase8__block7--left2 {
+        width: 100%;
+        margin-bottom: 16px;
+    }
+    .mcase8__block7--right2 {
+        width: 100%;
+    }
+    .mcase8__block8--title b {
+        margin-bottom: 20px;
+    }
+    .mcase8__block8--number b {
+        font-size: 28px;
+    }
+    .mcase8__block9--title {
+        margin-bottom: 25px;
+    }
 }
 
 @media(max-width: 480px) {
@@ -4902,6 +5113,26 @@ body {
     .mcase6__block4--left span {
         font-size: 35px;
     } 
+    .mcase8__block2--item p {
+        max-width: 190px;
+    }
+    .mcase8__block2--text {
+        font-size: 26px;
+    }
+    .mcase8__block4--mid b {
+        font-size: 30px;
+    }
+    .mcase8__block7--items {
+        padding: 16px;
+    }
+    .mcase8__block7--item p {
+        max-width: 50%;
+    }
+    .mcase8__block9--title {
+        padding-right: 0;
+        font-size: 36px;
+        text-align: start;
+    }
 }
 
 @media(max-width: 400px) {
@@ -4919,5 +5150,14 @@ body {
     }
     .mcase4__block1--content.mcase__banner--content h1 {
         font-size: 42px;
+    }
+    .mcase__banner--content.mcase8__block1--left h1 {
+        font-size: 45px;
+    }
+    .mcase8__block9--items {
+        gap: 16px;
+    }
+    .mcase8__block9--item b {
+        font-size: 40px;
     }
 }
