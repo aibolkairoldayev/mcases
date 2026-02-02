@@ -108,3 +108,29 @@ if ($(window).width() < 992) {
   });
 }
 
+//playing videos
+$('.mcase__video').on('click', function () {
+    const $current = $(this);
+    const currentVideo = $current.find('video').get(0);
+
+    // Если кликнули по уже играющему видео — ставим на паузу
+    if ($current.hasClass('play')) {
+        currentVideo.pause();
+        $current.removeClass('play');
+        return;
+    }
+
+    // Останавливаем ВСЕ остальные видео
+    $('.mcase__video.play').each(function () {
+        const video = $(this).find('video').get(0);
+        video.pause();
+        video.currentTime = 0;
+        $(this).removeClass('play');
+    });
+
+    // Запускаем текущее
+    $current.addClass('play');
+    currentVideo.currentTime = 0;
+    currentVideo.play();
+});
+
