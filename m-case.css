@@ -3507,9 +3507,16 @@ body {
 }
 
 .mcase8__block6--bot {
-    padding: 24px;
+    padding: 24px 12px 24px 24px;
     border-radius: 24px;
     background: #FFF;
+    max-height: 90vh;
+    overflow-y: scroll;
+    width: 100%;
+    box-sizing: border-box;
+}
+.mcase8__block6--bot img {
+    width: 100%;
 }
 
 .mcase8__block7 {
